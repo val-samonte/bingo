@@ -1,0 +1,33 @@
+.setform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1em;
+}
+
+.setform input {
+  padding: 0.5em;
+  margin-right: 1em;
+}
+
+.setform button {
+  padding: 0.5em;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.setform button:hover {
+  background-color: blue;
+}
+
+.setform button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.setform button[disabled]:hover {
+  background-color: darkblue;
+}

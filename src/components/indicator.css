@@ -1,0 +1,40 @@
+.indicator {
+  display: flex;
+  direction: column;
+}
+
+.indicator ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.indicator ul li.cell {
+  padding: 0.25em;
+  margin: 0.25em;
+  text-align: center;
+  line-height: 1em;
+  border-radius: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+.indicator ul li.cell.header {
+  font-weight: bold;
+  cursor: default;
+}
+
+.indicator ul li.cell.selected {
+  color: white;
+  background-color: indigo;
+}
+
+.indicator ul li.cell.free {
+  color: white;
+  background-color: aquamarine;
+}
+
+.indicator ul li.cell > * {
+  pointer-events: none;
+}

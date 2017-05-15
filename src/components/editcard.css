@@ -1,0 +1,50 @@
+.editcard {
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.editcard .inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.editcard .inputs .cell {
+  font-family: monospace;
+  text-align: center;
+}
+
+.editcard .inputs .cell.header {
+  padding: 1em 0.5em;
+  font-size: 1.85em;
+}
+
+.editcard .inputs .cell .input {
+  padding: 1em 0.5em;
+  width: 3em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.editcard .editcard-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+
+.editcard .editcard-action .btn {
+  padding: 0.5em;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 1em;
+}
+
+.editcard .editcard-action .btn:hover {
+  background-color: blue;
+}
